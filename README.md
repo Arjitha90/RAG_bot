@@ -25,7 +25,7 @@ An end-to-end **Retrieval-Augmented Generation (RAG)** chatbot that allows users
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 
 ## 🔐 API Key Setup
 
@@ -39,14 +39,13 @@ For security reasons, API keys are NOT included in this repository.
 
 ```bash
 export OPENAI_API_KEY="your_key_here"
-
+```
 
 ###Ngrok Auth Token
 
 Go to https://dashboard.ngrok.com/get-started/your-authtoken
 
 Copy your auth token
-
 Set it as:
 
 export NGROK_AUTH_TOKEN="your_token_here"
@@ -56,7 +55,7 @@ import os
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 NGROK_AUTH_TOKEN = os.getenv("NGROK_AUTH_TOKEN")
-
+```
 
 
 
