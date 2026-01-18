@@ -26,6 +26,7 @@ An end-to-end **Retrieval-Augmented Generation (RAG)** chatbot that allows users
 pip install -r requirements.txt
 streamlit run app.py
 
+
 ## 🔐 API Key Setup
 
 This project requires external API keys.  
@@ -38,6 +39,7 @@ For security reasons, API keys are NOT included in this repository.
 
 ```bash
 export OPENAI_API_KEY="your_key_here"
+
 
 ###Ngrok Auth Token
 
