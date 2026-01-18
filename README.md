@@ -38,7 +38,7 @@ For security reasons, API keys are NOT included in this repository.
 ```bash
 export OPENAI_API_KEY="your_key_here"
 
-Ngrok Auth Token
+###Ngrok Auth Token
 
 Go to https://dashboard.ngrok.com/get-started/your-authtoken
 
