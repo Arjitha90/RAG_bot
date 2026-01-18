@@ -21,7 +21,6 @@ An end-to-end **Retrieval-Augmented Generation (RAG)** chatbot that allows users
 - OpenAI / HuggingFace (pluggable)
 - PyMuPDF
 
-```md
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
